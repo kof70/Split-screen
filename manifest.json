@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "Split Screen",
+  "version": "1.0",
+  "description": "Ouvre une nouvelle page dans une fenêtre fractionnée.",
+  "permissions": ["activeTab"],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "48": "icon48.png"
+    }
+  }
+}
+
