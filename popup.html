@@ -1,28 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Split Screen Extension</title>
-  <style>
-    body, html {
-      margin: 0;
-      padding: 0;
-      height: 100%;
-      overflow: hidden;
-    }
-    iframe {
-      width: 50%;
-      height: 100%;
-      float: left;
-      border: none;
-    }
-  </style>
+  <title>Popup</title>
+  <script src="popup.js" defer></script>
 </head>
+
 <body>
-  <iframe id="current-page"></iframe>
-  <iframe id="new-page"></iframe>
-  <script src="popup.js"></script>
+  <button id="splitButton">Diviser la fenêtre</button>
 </body>
+
 </html>
+
 
